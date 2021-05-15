@@ -68,7 +68,7 @@ class ViewController: UIViewController {
             }
         }
         
-        playerView = UIView(frame: CGRect(x: 0, y: 0, width: cellWidth/6, height: cellHeight/6))
+        playerView = UIView(frame: CGRect(x: 0, y: 0, width: cellWidth / 6, height: cellHeight / 6))
         playerView.center = startView.center
         playerView.backgroundColor = UIColor.gray
         view.addSubview(playerView)
